@@ -1,0 +1,31 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 800px;
+    margin:auto;
+    padding: 1rem;
+    /* border-left: 1px solid #333;
+    border-right: 1px solid #333; */
+    border: 5px solid black;
+    font-family: Calibri;
+}
+
+th, td, caption {
+    border: 1px solid #333;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: separate;
+    padding: 0.5rem;
+}
+
+hr {
+    border: black;
+    height: 3px;
+    width: auto;
+    justify-content: left;
+    /* Set the hr color */
+    color: #333;  /* old IE */
+    background-color: #333;  /* Modern Browsers */
+  }
